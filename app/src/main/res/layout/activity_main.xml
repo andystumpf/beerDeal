@@ -14,24 +14,70 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/app_name"
-            android:textAppearance="?attr/textAppearanceHeadlineMedium"
+            android:textSize="26sp"
             android:textStyle="bold" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
+            android:layout_marginTop="4dp"
             android:text="@string/app_subtitle"
-            android:textAppearance="?attr/textAppearanceBodyMedium" />
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/tagInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:gravity="top"
+            android:hint="@string/hint_tag"
+            android:inputType="textMultiLine|textCapCharacters"
+            android:minLines="3" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/addButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/btn_add" />
+
+            <Button
+                android:id="@+id/samplesButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/btn_samples" />
+
+            <Button
+                android:id="@+id/clearButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/btn_clear" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/statusText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:textColor="@color/amber_primary"
+            android:textSize="14sp" />
 
         <TextView
             android:id="@+id/resultsText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="24dp"
+            android:layout_marginTop="16dp"
             android:fontFamily="monospace"
-            android:textAppearance="?attr/textAppearanceBodyMedium"
-            android:textIsSelectable="true" />
+            android:textIsSelectable="true"
+            android:textSize="14sp" />
 
     </LinearLayout>
 </ScrollView>

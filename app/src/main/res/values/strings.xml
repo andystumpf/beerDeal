@@ -2,6 +2,14 @@
 <resources>
     <string name="app_name">Beer Deal</string>
     <string name="app_subtitle">Ranked by cost per ounce of alcohol</string>
-    <string name="sample_deals_header">Sample aisle (core engine demo)</string>
-    <string name="camera_coming_soon">Camera + OCR capture coming next.</string>
+    <string name="hint_tag">Type or paste a shelf tag, e.g.\nMILLER LITE\n30 PK 12 OZ CANS\n$22.99</string>
+    <string name="btn_add">Add tag</string>
+    <string name="btn_samples">Samples</string>
+    <string name="btn_clear">Clear</string>
+    <string name="empty_state">No deals yet — add a shelf tag above, or load the samples.</string>
+    <string name="status_empty_input">Type or paste a shelf tag first.</string>
+    <string name="status_missing_fields">Tag is missing: %1$s. Add it and try again.</string>
+    <string name="status_no_match">No match for “%1$s” in the beer database yet.</string>
+    <string name="status_added">Added %1$s.</string>
+    <string name="status_samples_loaded">Loaded sample aisle.</string>
 </resources>

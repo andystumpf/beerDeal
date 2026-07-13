@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <style name="Theme.BeerDeal" parent="Theme.Material3.DayNight.NoActionBar">
-        <item name="colorPrimary">@color/amber_primary</item>
-        <item name="colorPrimaryContainer">@color/amber_container</item>
+    <!-- Platform theme (no androidx/material) so the app also builds where
+         Google's Maven repo is unreachable. -->
+    <style name="Theme.BeerDeal" parent="android:Theme.Material.NoActionBar">
+        <item name="android:colorPrimary">@color/amber_primary</item>
+        <item name="android:colorAccent">@color/amber_primary</item>
     </style>
 </resources>
