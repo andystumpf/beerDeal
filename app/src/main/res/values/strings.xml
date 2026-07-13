@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Beer Deal</string>
+    <string name="app_subtitle">Ranked by cost per ounce of alcohol</string>
+    <string name="sample_deals_header">Sample aisle (core engine demo)</string>
+    <string name="camera_coming_soon">Camera + OCR capture coming next.</string>
+</resources>
